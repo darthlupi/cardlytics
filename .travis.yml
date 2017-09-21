@@ -19,5 +19,11 @@ deploy:
     skip_cleanup: true  
     local_dir: upload
 
-
-
+  - provider: codedeploy
+    access_key_id: $ACCESS_ID
+    secret_access_key: $SECRET_KEY
+    bucket: "darthlupi-travis-ci"
+    key: html.zip
+    bundle_type: zip
+    application: TravisCITest
+    deployment_group: TravisCITest
