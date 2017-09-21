@@ -4,5 +4,13 @@ language: php
   
 script: php -l html/*.php 
 
+deploy:
+  - provider: s3
+    access_key_id: $ACCESS_ID
+    secret_access_key: $SECRET_KEY
+    bucket: "darthlupi-travis-ci"
+    skip_cleanup: true  // insures dist/ dir not to be deleted thus removing anything created during deployment
+    local_dir: html
+
 
 
