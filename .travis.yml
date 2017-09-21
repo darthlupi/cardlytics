@@ -27,3 +27,4 @@ deploy:
     bundle_type: zip
     application: TravisCITest
     deployment_group: TravisCITest
+    region: "us-west-2"
