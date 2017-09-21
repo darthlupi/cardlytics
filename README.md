@@ -11,5 +11,5 @@ Wait for the Travis CI build and deploy to finish.
 
 NOTE: It can take up to two minutes to see changes.
 
-### Where to see updates:
+### URL to view code updates:
 http://ec2-52-36-147-182.us-west-2.compute.amazonaws.com/
