@@ -1,4 +1,4 @@
-# Cardlytics static page.
+# Cardlytics static page pipeline
 
 This repo is part of a Travis CI Pipeline.
 
