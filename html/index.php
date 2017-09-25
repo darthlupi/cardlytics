@@ -1,8 +1,8 @@
 <html>
  <head>
-  <title>Hello Cardlytics!</title>
+  <title>Hellooooooooo Cardlytics!</title>
  </head>
  <body>
- <?php echo '<p>Hello Cardlytics!</p>'; ?> 
+ <?php echo '<p>Hellooooooooooo Cardlytics!</p>'; ?> 
  </body>
 </html>
